@@ -1,0 +1,5 @@
+magma
+mkdir /home/gtg/.gtg-client/data/gtg.paypal.app/
+mv build/paypal /usr/local/bin
+echo "Done"
+echo ""

@@ -1,0 +1,11 @@
+main (`src/main.cc`);
+out  (`paypal`);
+bin  (`build`);
+
+compile_arguments (`-Iinclude`);
+pkg_config (`--cflags --libs gtk+-3.0 webkit2gtk-4.0`);
+
+exec();
+system (`clear`);
+
+make();
