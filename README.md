@@ -1,5 +1,5 @@
 # PayPal Linux Client
-This is the unofficial paypal webview client for linux systems which allows you to make a paypal native like isolated application for your personal use. This works by just wrapping the paypal.com into the gtk & webkit2gtk webview. Note that this program has no relations with PayPal or any of it's services , This just acts like a browser for paypal.com
+This is the unofficial paypal webview client for linux systems which allows you to make a paypal native like isolated application for your personal use. This works by just wrapping the paypal.com into the gtk & webkit2gtk webview. Note that this program has no relations with PayPal or any of it's services , This just acts like a browser for paypal.com and gmail.com
 
 ## To Get Started
 Install the following dependencies
