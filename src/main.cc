@@ -10,7 +10,10 @@
 
 
 int main(){
-    HTMLUI Window ("PayPal - Personal (Linux Client)", 360, 800, "/home/gtg/.gtg-client/data/gtg.paypal.app/cookies.db");
+    HTMLUI Window ("PayPal - Personal (Linux Client)", 360, 800, "/home/gtg/apps/paypal/cookies.db");
     Window.loadURL ("https://paypal.com/");
+        HTMLUI Window_Gmail ("Gmail - Personal (Linux Client)", 800, 800, "/home/gtg/apps/paypal/cookies-gmail.db");
+        Window_Gmail.loadURL ("https://gmail.com/");
+        Window_Gmail.run();
     Window.run();
 }
